@@ -1,0 +1,21 @@
+name:                hangman
+version:             0.1.0.0
+synopsis:            playing hangman
+description:         Please see README.md
+homepage:            https://github.com/LATBauerdick/hangman#readme
+license:             BSD3
+license-file:        LICENSE
+author:              LATBauerdick
+maintainer:          stack@bauerdick.org
+copyright:           Copyright: (c) 2016 LATBauerdick
+category:            test
+build-type:          Simple
+cabal-version:       >=1.10
+
+executable hangman
+  hs-source-dirs:     src
+  main-is:            Main.hs
+  build-depends:      base >= 4.7 && < 5
+                    , random
+                    , split
+  default-language:   Haskell2010
